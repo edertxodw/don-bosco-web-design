@@ -22,41 +22,148 @@
                 </div>
             </div><!-- Cabecera -->
             
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">CIFP Don Bosco LHI</a>
-                </div>
-            
-                <div class="collapse navbar-collapse" id="menu-collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file"></span> Formazioa <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Heziketa zikloak</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Dual sistema</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Eskeintza partziala</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Sarbide froga</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Enplegurako prestakuntza</a></li>
+            <div class="row">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">CIFP Don Bosco LHI</a>
+                    </div>
+                
+                    <div class="collapse navbar-collapse" id="menu-collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file"></span> Formazioa <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Heziketa zikloak</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Dual sistema</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Eskeintza partziala</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Sarbide froga</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Enplegurako prestakuntza</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-send"></span> Proiektuak</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-headphones"></span> Eventos</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Inskripzioa</a></li>
                       </ul>
-                    </li>
-                    <li><a href="#"><span class="glyphicon glyphicon-send"></span> Proiektuak</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-headphones"></span> Eventos</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Inskripzioa</a></li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav> 
+            </div><!-- Menú -->
+            
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <!-- CARRUSEL -->
+                        <div id="carrusel" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#slide" data-slide-to="0" class="active"></li>
+                            <li data-target="#slide" data-slide-to="1"></li>
+                            <li data-target="#slide" data-slide-to="2"></li>
+                            <li data-target="#slide" data-slide-to="3"></li>
+                          </ol>
+                        
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="images/slide/index.jpg" class="img-responsive" />
+                            </div>
+                            <div class="item">
+                              <img src="images/slide/biospain.png" class="img-responsive" />
+                            </div>
+                            <div class="item">
+                              <img src="images/slide/metal.jpg" class="img-responsive" />
+                            </div>
+                            <div class="item">
+                              <img src="images/slide/openhab.jpg" class="img-responsive" />
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <!-- COLAPSE -->
+                        <div class="panel-group" id="acordeon" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                              <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Lehen aukera
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Bigarren aukera
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Hirugarren aukera
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Laugarren aukera
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Contenido de la página -->
+            
+            <div class="row">
+                <div id="footer">
+                    <div id="info">
+                <p>© CIFP Don Bosco LHII </p>
+                <p>Telefonoa: 943510450 | Fax: 943529220 | <a href="mailto:donboscoARROBA@fpdonbosco.com" title="Korreoa bidali">donboscoARROBA@fpdonbosco.com</a></p>
+            </div>
+                </div>
+            </div>
+            
             
         </div><!-- .container-fluid -->
         

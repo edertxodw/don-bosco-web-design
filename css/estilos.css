@@ -2,3 +2,15 @@
     background: url('../images/header-bg.jpg') no-repeat left;
     height: 143px;
 }
+
+#acordeon {
+    margin-top: 50px;
+}
+
+#footer {
+    background: url('../images/footer.jpg') no-repeat center;
+    height: 170px;
+    margin-top: 50px;
+    bottom: 0;
+    position: relative;
+}
